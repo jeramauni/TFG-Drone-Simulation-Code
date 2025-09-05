@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd /home/jeramos
+
+source venv-ardupilot/bin/activate
+
+cd /home/jeramos/ardupilot/Tools/autotest
+
+python sim_vehicle.py -v ArduCopter -f quad --console --map --wipe --custom-location=28.761638,-17.741078,0,0 --instanc>
